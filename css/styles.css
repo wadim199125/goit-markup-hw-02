@@ -201,11 +201,12 @@ color: #F4F4FD;
     letter-spacing: 0.04em;
     color: #4D5AE5;
     background-color:#F4F4FD;
-    cursor: pointer;
+    
     
 }
 .button-clik:hover,
 .button-clik:focus {
     color: #FFFFFF;
     background: #404BBF;
+    cursor: pointer;
 }

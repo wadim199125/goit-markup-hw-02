@@ -10,7 +10,9 @@ body {
 .link {
     text-decoration: none;
 }
-
+:root {
+    --white: #ffffff
+}
 /* hrader */
 .page-header {
  background: #FFFFFF;
@@ -19,6 +21,9 @@ border-bottom: 1px solid #E7E9FC;
 .menu-link:hover,
 .menu-link:focus {
     color: #404BBF;
+}
+.contacts {
+    font-style: normal;
 }
 .contact-info {
     font-family: 'Roboto', sans-serif;
@@ -150,7 +155,7 @@ letter-spacing: 0.02em;
 color: #434455;
 
 }
-.team {
+.team-list {
     background: #FFFFFF;
 }
 .piople-list {
@@ -189,15 +194,17 @@ color: #F4F4FD;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.17;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
     color: #4D5AE5;
+    background-color:#F4F4FD;
     
 }
 .button-clik:hover,
 .button-clik:focus {
+    color: #FFFFFF;
     background: #404BBF;
 }

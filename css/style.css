@@ -10,9 +10,7 @@ body {
 .link {
     text-decoration: none;
 }
-:root {
-    --white: #ffffff;
-}
+
 /* hrader */
 .page-header {
  background: #FFFFFF;

@@ -235,8 +235,6 @@ padding-bottom: 120px;
     padding-bottom: 32px;
     border-top: none;
     border: 1px;
-
-
 }
 .people {
     font-family: 'Roboto', sans-serif;
@@ -278,9 +276,7 @@ color: #434455;
 /* foorer */
 .page-footer{
     background: #2E2F42;
-    max-width: 1440px;
-    
-
+    padding: 100px 0;
 }
 .info-footer {
 font-family: 'Roboto', sans-serif;
@@ -290,6 +286,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #F4F4FD;
+max-width: 264px;
+margin-top: 16px;
 
 }
 
@@ -298,8 +296,7 @@ font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.16px;
-display: flex;
+line-height: 1.16p;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
